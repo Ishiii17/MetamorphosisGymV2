@@ -40,7 +40,7 @@ function About() {
             alt="Profile 1"
           /> */}
           <div className="m-0 flex h-32 w-full flex-col justify-between bg-dark-elixir p-0">
-            <h2 className="text-center text-4xl font-bold my-2">
+            <h2 className="text-center text-3xl font-bold my-6">
                Gabriel Dela Cruz
             </h2>
             <p className="text-center text-2xl mb-6">Trainer</p>
@@ -53,7 +53,7 @@ function About() {
             alt="Profile 2"
           /> */}
           <div className="m-0 flex h-32 w-full flex-col justify-between bg-dark-elixir p-0">
-            <h2 className="text-center text-4xl font-bold my-2">
+            <h2 className="text-center text-3xl font-bold my-6">
               Hiroshi Curimatmat
             </h2>
             <p className="text-center text-2xl mb-6">Trainer</p>
@@ -66,7 +66,7 @@ function About() {
             alt="Profile 3"
           /> */}
           <div className="m-0 flex h-32 w-full flex-col justify-between bg-dark-elixir p-0">
-            <h2 className="text-center text-4xl font-bold my-2">
+            <h2 className="text-center text-3xl font-bold my-6">
               Jedd Christian Juab
             </h2>
             <p className="text-center text-2xl mb-6">Trainer</p>
@@ -79,7 +79,7 @@ function About() {
             alt="Profile 4"
           /> */}
           <div className="m-0 flex h-32 w-full flex-col justify-between bg-dark-elixir p-0">
-            <h2 className="text-center text-4xl font-bold my-2">
+            <h2 className="text-center text-3xl font-bold my-6">
               Shawn Ryan Nacario
             </h2>
             <p className="text-center text-2xl mb-6">Founder</p>

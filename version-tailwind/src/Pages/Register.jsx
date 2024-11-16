@@ -76,18 +76,19 @@ const Register = () => {
   return (
     <div className="flex h-screen items-center justify-center">
       <form
-        className="h-5/7 mb-4 flex w-1/3 flex-col rounded bg-zinc-800 px-8 pb-8 pt-8 shadow-md"
+        className="h-5/7 mb-4 flex w-1/3 flex-col rounded bg-zinc-800 px-14 pb-6 pt-8 shadow-md"
         onSubmit={handleSubmit}
       >
+        <h2 className="mb-6 text-center text-2xl font-bold italic text-white">Register</h2>
         <div className="mb-4">
           <label
-            className="mb-2 block text-center text-4xl font-bold italic text-white"
+            className="block text-center text-xl font-bold text-white"
             htmlFor="username"
           >
-            USERNAME
+            Username
           </label>
           <input
-            className="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight shadow focus:outline-none"
+            className="focus:shadow-outline w-full appearance-none rounded border px-3 py-1 leading-tight shadow focus:outline-none"
             id="username"
             type="text"
             placeholder="Enter your username"
@@ -97,15 +98,15 @@ const Register = () => {
             required
           />
         </div>
-        <div className="mb-6">
+        <div className="mb-4">
           <label
-            className="mb-2 block text-center text-4xl font-bold italic text-white"
+            className="block text-center text-xl font-bold text-white"
             htmlFor="firstname"
           >
-            FIRST NAME
+            First Name
           </label>
           <input
-            className="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
+            className="focus:shadow-outline w-full appearance-none rounded border px-3 py-1 leading-tight text-gray-700 shadow focus:outline-none"
             id="firstname"
             type="firstname"
             placeholder="Enter your first name"
@@ -115,15 +116,15 @@ const Register = () => {
             required
           />
         </div>
-        <div className="mb-6">
+        <div className="mb-4">
           <label
-            className="mb-2 block text-center text-4xl font-bold italic text-white"
+            className="block text-center text-xl font-bold text-white"
             htmlFor="lastname"
           >
-            LAST NAME
+            Last Name
           </label>
           <input
-            className="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
+            className="focus:shadow-outline w-full appearance-none rounded border px-3 py-1 leading-tight text-gray-700 shadow focus:outline-none"
             id="lastname"
             type="lastname"
             placeholder="Enter your last name"
@@ -135,13 +136,13 @@ const Register = () => {
         </div>
         <div className="mb-4">
           <label
-            className="mb-2 block text-center text-4xl font-bold italic text-white"
+            className="block text-center text-xl font-bold text-white"
             htmlFor="email"
           >
-            EMAIL
+            Email
           </label>
           <input
-            className="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
+            className="focus:shadow-outline w-full appearance-none rounded border px-3 py-1 leading-tight text-gray-700 shadow focus:outline-none"
             id="email"
             type="email"
             placeholder="Enter your email"
@@ -151,15 +152,15 @@ const Register = () => {
             required
           />
         </div>
-        <div className="mb-6">
+        <div className="mb-4">
           <label
-            className="m-2 block text-center text-4xl font-bold italic text-white"
+            className="block text-center text-xl font-bold text-white"
             htmlFor="password"
           >
-            PASSWORD
+            Password
           </label>
           <input
-            className="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
+            className="focus:shadow-outline w-full appearance-none rounded border px-3 py-1 leading-tight text-gray-700 shadow focus:outline-none"
             id="password"
             type="password"
             placeholder="Enter your password"
@@ -169,15 +170,15 @@ const Register = () => {
             required
           />
         </div>
-        <div className="mb-6">
+        <div className="mb-8">
           <label
-            className="m-2 block text-center text-4xl font-bold italic text-white"
+            className="block text-center text-xl font-bold text-white"
             htmlFor="confirmPassword"
           >
-            CONFIRM PASSWORD
+            Confirm Password
           </label>
           <input
-            className="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
+            className="focus:shadow-outline w-full appearance-none rounded border px-3 py-1 leading-tight text-gray-700 shadow focus:outline-none"
             id="confirmPassword"
             type="password"
             placeholder="Confirm your password"

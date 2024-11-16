@@ -65,27 +65,27 @@ const Login = () => {
 
   return (
     <div className="flex min-h-screen items-center justify-center">
-      <div className="rounded-md bg-zinc-800 p-16 text-center text-white shadow-md">
-        <h2 className="mb-4 text-2xl font-bold italic">Login</h2>
+      <div className="rounded-md bg-zinc-800 p-10 text-center text-white shadow-md">
+        <h2 className="mb-8 text-2xl font-bold italic">Login</h2>
 
-        <div className="relative mb-4 flex flex-col">
-          <div className="mb-2 text-2xl font-bold">USERNAME</div>
+        <div className="relative mb-2 flex flex-col">
+          <div className="mb-2 text-xl font-bold">Username</div>
           <input
             type="text"
             id="username"
-            className="w-full border p-3 pl-10 text-black"
+            className="w-full border p-3 pl-10 text-black rounded-md"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
           <AiOutlineUser className="absolute left-3 top-3/4 -translate-y-1/2 transform text-black" />
         </div>
 
-        <div className="relative mb-4 flex flex-col">
-          <div className="mb-2 text-2xl font-bold">PASSWORD</div>
+        <div className="relative mb-8 flex flex-col">
+          <div className="mb-2 text-xl font-bold">Password</div>
           <input
             type={showPassword ? 'text' : 'password'}
             id="password"
-            className="w-full border p-3 pl-10 text-black"
+            className="w-full border p-3 pl-10 text-black rounded-md"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
