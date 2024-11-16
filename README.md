@@ -2,7 +2,7 @@
 # Metamorphosis-gym
 A repository of our gym project for IM/WEBDEV that utilizes react, mysql, express, and tailwindcss
 
-##Tech Stack
+## Tech Stack
 
 - Frontend: React.js
 - Backend: Node.js/Express.js
