@@ -5,10 +5,10 @@ A repository of our gym project for IM/WEBDEV that utilizes react, mysql, expres
 
 ## Authors
 
-- [Matt Magdadaro](https://www.github.com/raberu12)
+- [Gabriel Christian](https://www.github.com/raberu12)
 - [Hiroshi Curimatmat](https://github.com/Ishiii17)
 - [Jedd Juab](https://github.com/Losn1ght)
-- [Eman Patalinghug](https://github.com/Choco-Mint23)
+- [Shawn Nacrio](https://github.com/Choco-Mint23)
 
 ## Dependencies
 - ### Client
