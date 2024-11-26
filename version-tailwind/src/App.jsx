@@ -15,6 +15,8 @@ import Login from './Pages/Login'
 import { UserProvider, useUserContext } from './Components/UserContext'
 import OverviewM from './Pages/OverviewM'
 import Admin from './Pages/Admin'
+import Checkout from './Pages/Checkout'
+
 
 const PrivateRoute = ({ element, adminOnly }) => {
   const { userData } = useUserContext()
@@ -115,6 +117,7 @@ const App = () => {
               <Route path="/login" element={<Login />} />
               <Route path="/gym" element={<Gym />} />
               <Route path="/overviewmember" element={<OverviewM />} />
+              <Route path="/checkout" element={<Checkout />} />
               <Route
                 path="/admin/*"
                 element={<PrivateRoute element={<Admin />} adminOnly />}

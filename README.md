@@ -1,6 +1,5 @@
-
 # Metamorphosis-gym
-A repository of our gym project for IM/WEBDEV that utilizes react, mysql, express, and tailwindcss
+A repository for our gym project in IM/WEBDEV that utilizes React, MySQL, Express, Tailwind CSS, and the PayPal API.
 
 ## Tech Stack
 
@@ -10,12 +9,14 @@ A repository of our gym project for IM/WEBDEV that utilizes react, mysql, expres
 - Styling: Tailwind CSS
 - Payments: PayPal API
 
+
 ## Dependencies
 - ### Client
 - react-icons
 - react-router-dom
 - jwt-decode
 - react-modal
+- @paypal/react-paypal-js
 - ### Server
 - nodemon
 - express
